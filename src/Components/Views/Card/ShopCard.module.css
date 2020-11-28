@@ -1,0 +1,43 @@
+.card {
+    width: 26%;
+    max-width: 270px;
+    background-color: whitesmoke;
+    -webkit-box-shadow: -1px 14px 12px -1px rgba(0,0,0,0.24);
+    box-shadow: -1px 14px 12px -1px rgba(0,0,0,0.24);
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 70%;
+    max-height: 140px;
+}
+
+.name {
+    margin: 0;
+    text-align: center;
+}
+
+.color {
+    width: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    color: grey;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    align-items: center;
+}
+
+.button {
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    color: red;
+    padding: 8px;
+    font-weight: 600;
+}
